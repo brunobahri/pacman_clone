@@ -83,5 +83,6 @@ async fn main() {
         draw_text(&format!("Pontuação: {}", score), 20.0, 20.0, 30.0, WHITE);
 
         next_frame().await;
+        
     }
 }
